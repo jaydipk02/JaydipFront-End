@@ -1,15 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=  , initial-scale=1.0">
-    <title>Link in HTML </title>
-</head>
-<body>
-    <h2>I am learning -How to navigate from one page to other page</h2>
-    <p> For personal details please visit the link <a href="collegeDetails.html" target="_blank"> College details</a></p>
-    <p> My Resume <a href="Resume.pdf"Download> Click here</a></p>
-    <p> To visit list file <a href="list.html">click here</a></p>
-    <p>To visit my facebook profile <a href="https://www.facebook.com/" target="_blank">click here</a></p>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basics of CSS</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- rel="stylesheet" -->
+    <!-- href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+    <style>
+       .user{
+          padding: 10px;
+       }
+       .SocialMedia{
+        padding: 10px;
+       }
+       .personal{
+        padding: 10px;
+       }
+       h1{
+        text-transform: uppercase; 
+        text-decoration: brown;
+        /*background-color: chocolate;*/
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: large;
+        color: brown;
+       }
+       #carrier{
+        
+       }
+    </style>
+  </head>
+  <body>
+    <p >
+        <i class="fa fa-user user" aria-hidden="true"> Jayadip Kashid </i
+      >
+      <i class="fa fa-phone-square user" aria-hidden="true">&nbsp;7264020602</i
+      >
+      <i class="fa fa-envelope-o user" aria-hidden="true"
+        >&nbsp;jaydipkashid02@gail.com</i
+      >
+    </p>
+    <p> 
+      <a href="home.html" class="personal">Home</a> <a href="collegeDetails.html" class="personal">Education</a><a href="myTechnologyStack.html"class="personal">Technology stack</a>  <a href="basics.html"> Personal</a> <a href="index.html">Others Details</a>
+    </p>
+    <h1 >Carrier Objective</h1>
+    <p id="Carrier">
+      To work in organization where i can learn and grow my skill and help
+      organizational growth
+    </p>
+    <iframe src="summery.html" frameborder="2" width="650" height="250"></iframe>
+    </p>
+    <p>
+      Fallow me on 
+      <a href="https://twitter.com/?lang=en-in"><i class="fa fa-twitter https://twitter.com/?lang=en-in SocialMedia" aria-hidden="true"></i></a> <a href="https://www.instagram.com/?hl=en"><i class="fa fa-instagram SocialMedia" aria-hidden="true"></i>
+      </a> <a href="https://www.facebook.com/"><i class="fa fa-facebook SocialMedia" aria-hidden="true"></i>
+      </a>
+    </p>
+  </body>
 </html>
