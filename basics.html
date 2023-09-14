@@ -11,57 +11,100 @@
 
     <!-- rel="stylesheet" -->
     <!-- href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
 
     <style>
-       .user{
-          padding: 10px;
-       }
-       .SocialMedia{
+      .user,.details,.SocialMedia,.personal {
         padding: 10px;
-       }
-       .personal{
+      }
+     /* .SocialMedia {
         padding: 10px;
-       }
-       h1{
-        text-transform: uppercase; 
+      }
+      .personal {
+        padding: 15px;
+      }*/
+      h1 {
+        text-transform: uppercase;
         text-decoration: brown;
-        /*background-color: chocolate;*/
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        background-color: chocolate;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
         font-size: large;
         color: brown;
-       }
-       #carrier{
-        
-       }
+      }
+      .Carrier,.summery {
+        background-color: aqua;
+      }
+      /*.s {
+        background-color: aqua;
+      }*/
+      .Objective,
+      .Carrier,#information,.my {
+        margin-top: 30px;
+        margin-left: 30px;
+        margin-bottom: 30px;
+      }
+      #information{
+        color: crimson;
+        background-color: greenyellow;
+        text-transform: uppercase;
+        text-decoration: underline ;
+        font-size: large;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
     </style>
   </head>
   <body>
-    <p >
-        <i class="fa fa-user user" aria-hidden="true"> Jayadip Kashid </i
-      >
-      <i class="fa fa-phone-square user" aria-hidden="true">&nbsp;7264020602</i
-      >
+    <p> <h1 id="information"> Personal information</h1>
+     <p class="my"> <i class="fa fa-user user" aria-hidden="true"><span class="details">Jayadip Kashid</span>  </i>
+      <i class="fa fa-phone-square user" aria-hidden="true"> <span class="details">7264020602</span> </i>
       <i class="fa fa-envelope-o user" aria-hidden="true"
-        >&nbsp;jaydipkashid02@gail.com</i
+        ><span class="details">jaydipkashid02@gail.com</span></i
       >
     </p>
-    <p> 
-      <a href="home.html" class="personal">Home</a> <a href="collegeDetails.html" class="personal">Education</a><a href="myTechnologyStack.html"class="personal">Technology stack</a>  <a href="basics.html"> Personal</a> <a href="index.html">Others Details</a>
     </p>
-    <h1 >Carrier Objective</h1>
-    <p id="Carrier">
+    <p class="my">
+      <a href="home.html" class="personal">Home</a>
+      <a href="collegeDetails.html" class="personal">Education</a
+      ><a href="list.html" class="personal">Technology stack</a>
+      <a href="basics.html " class="personal"> Personal</a>
+      <a href="index.html" class="personal">Others Details</a>
+    </p>
+    
+    <h1 class="Objective">Carrier Objective</h1>
+    <p class="Carrier">
       To work in organization where i can learn and grow my skill and help
       organizational growth
     </p>
-    <iframe src="summery.html" frameborder="2" width="650" height="250"></iframe>
+
+    <p class="my">
+      <iframe
+        class="summery"
+        src="summery.html"
+        frameborder="2"
+        width="650"
+        height="250"
+      ></iframe>
     </p>
-    <p>
-      Fallow me on 
-      <a href="https://twitter.com/?lang=en-in"><i class="fa fa-twitter https://twitter.com/?lang=en-in SocialMedia" aria-hidden="true"></i></a> <a href="https://www.instagram.com/?hl=en"><i class="fa fa-instagram SocialMedia" aria-hidden="true"></i>
-      </a> <a href="https://www.facebook.com/"><i class="fa fa-facebook SocialMedia" aria-hidden="true"></i>
+    <p class="my">
+      Fallow me on
+      <a href="https://twitter.com/?lang=en-in"
+        ><i
+          class="fa fa-twitter https://twitter.com/?lang=en-in SocialMedia"
+          aria-hidden="true"
+        ></i
+      ></a>
+      <a href="https://www.instagram.com/?hl=en"
+        ><i class="fa fa-instagram SocialMedia" aria-hidden="true"></i>
+      </a>
+      <a href="https://www.facebook.com/"
+        ><i class="fa fa-facebook SocialMedia" aria-hidden="true"></i>
       </a>
     </p>
   </body>
