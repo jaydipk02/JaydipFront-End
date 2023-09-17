@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discount calculator</title>
+    <style>
+      .Bill{
+        display: inline-block;
+        border: 2px solid;
+        width: 350px;
+        height: 300px;
+        position: relative;
+        left: 220px;
+        top: -7px;
+        padding: 20px;
+        background-color: rgb(247, 250, 146);
+      }
+      .button:hover{
+        background-color: #4caf50;
+          color: burlywood;
+      }
+      .discount{
+        font-family: cursive;
+        color: rgb(19, 5, 4);
+      }
+      h2{
+        position: relative;
+        left:300px ;
+        font-family: cursive;
+        color: rgb(253, 7, 7);
+      }
+    </style>
+</head>
+<body class="discount">
+    <h2>Discount calculator</h2>
+   <div class="Bill">
+    
+    Enter the bill amount and discount in percentage
+   <p>
+     <label for="">Bill Amount</label><br>
+     <input type="number">
+   </p>
+   <p>
+    <label for="">Discount in percentage</label><br>
+    <input type="number">
+   </p>
+   <p>
+    <label for="button"> calculate</label><br>
+    <input type="button" value="calculate" class="button" >
+    <br>
+    <p>Total discount amount is <br><input type="number" value="10%"></p>
+   </p>
+  </div>
+</body>
+</html>

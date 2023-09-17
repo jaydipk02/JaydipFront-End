@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Registration form</title>
+    <link rel="shortcut icon" href="coding-g071733bd6_1280.png.jpg" type="image/x-icon">
+    <style>
+       #formheding:hover{
+    color: chartreuse;
+       }
+       input[type="text"]:hover{
+         color: rgb(20, 9, 239);
+       }
+       label[for=""]:hover{
+        color: dodgerblue;
+
+       }
+       .button:hover{
+        background-color: red;
+       }
+       .button1:hover{
+        background-color: rgb(10, 245, 10);
+       }
+       input [type="file"]:hover{
+        background-color: red;
+       }
+    </style>
+</head>
+<body>
+    <p>
+       <h2 id="formheding">  Employee Registration form</h2>
+        
+
+    </p>
+    <p>
+        <fieldset>
+            <legend >Employee Registration form</legend>
+        <table>
+            <tbody> <form action="">
+               <tr>
+                <td> <label for="" > First Name</label></td>
+                <td> <input type="text" maxlength="13" autofocus placeholder="only first name"></td>
+               </tr>
+               <td><label for="">Last Name</label></td>
+               <td><input type="text"></td>
+               <tr>
+                <td><label for="">MO.No</label></td>
+                <td><input type="number" maxlength="10" required></td>
+               </tr>
+               <tr>
+                <td>
+                    <label for="">E-mail</label>
+                </td>
+                <td><input type="email" placeholder="Ex.abc@gmail.com" required></td>
+               </tr>
+               <tr>
+                <td><label for="">DOB</label></td>
+                <td> <input type="date" name="" id=""></td>
+               </tr>
+               <tr>
+                <td><label for="">Password</label></td>
+                <td><input type="password"></td>
+               </tr>
+               <tr>
+                <td> <label for="">Select State</label></td>
+                <td>
+                    <select name="" id="">
+                        <option value="MH">Maharastra</option>
+                        <option value="KA">Karnataka</option>
+                        <option value="AP">Andhra Pradhesh</option>
+                        <option value="BH">Bihar</option>
+                        <option value="GJ">Gujarat</option>
+                        <option value="TM">Tamilnadu</option>
+                        <option value="UP">UP</option>
+                    </select>
+                </td>
+               </tr>
+               <tr>
+                <td> <label for="">Country</label></td>
+                <td><input type="text" value="India" readonly></td>
+               </tr>
+               <tr>
+                <td><label for="">Select Gender</label></td>
+                <td>
+                            <input type="radio" name="Gender"> Male
+                            <input type="radio"name="Gender">female 
+                            <input type="radio"name="Gender">others
+                </td>
+               </tr>
+               <tr> 
+                <td>
+                    <label for="">My Technology stack-</label>
+                </td>
+                <td>
+                   <input type="checkbox"><label for="">Java</label>
+                   <input type="checkbox"><label for="">HTML</label> 
+                   <input type="checkbox"> <label for="">Javascript</label>
+                   <input type="checkbox"><label for="">React</label>
+                </td>
+               </tr>
+               <tr>
+                <td><label for="">Permanent Address</label></td>
+                <td><textarea name="" id="" cols="30" rows="10"></textarea></td>
+               </tr>
+               <tr>
+                <td> <label for="">Profile photo</label></td>
+                <td><input type="file" name="" id=""></td>
+               </tr>
+               <tr>
+                <td><label for="">Enter your mark Sheets </label></td>
+                <td><input type="file" name="" id="" multiple></td>
+               </tr>
+               <tr >
+                <td>
+                  <button type="reset" class="button">Reset</button>
+                </td>
+                <td><button type="submit" class="button1">submit</button></td>
+               </tr>
+               
+            </form>
+            </tbody>
+        </table>
+    </fieldset>
+    </p>
+</body>
+</html>
